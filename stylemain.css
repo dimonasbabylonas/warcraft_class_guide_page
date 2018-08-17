@@ -1,0 +1,15 @@
+body {
+  margin-top: 80px;
+}
+
+.navbar {
+  background: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=84&opacity=32");
+  border-bottom: 2px solid rgb(255, 167, 3);
+  font-family: "Germania One", cursive;
+}
+.navbar-toggler-icon {
+  height: 20px;
+}
+.dropdown-item:hover {
+  background: rgb(255, 167, 3);
+}

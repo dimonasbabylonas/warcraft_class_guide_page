@@ -1,15 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin-top: 80px;
+  margin-top: 110px;
+  background: url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar {
   background: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=84&opacity=32");
   border-bottom: 2px solid rgb(255, 167, 3);
   font-family: "Germania One", cursive;
+  font-size: 1.2rem;
 }
 .navbar-toggler-icon {
   height: 20px;
 }
 .dropdown-item:hover {
   background: rgb(255, 167, 3);
+}
+
+h1 {
+  font-family: "Germania One", cursive;
+  color: rgb(255, 167, 3);
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 20px;
+  font-family: "Germania One", cursive;
+  color: rgb(250, 250, 250);
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 2rem;
+}
+
+p {
+  color: rgb(250, 250, 250);
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 1rem;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+#middle,
+#middlepart {
+  text-align: center;
+}
+
+.info {
+  color: rgb(250, 250, 250);
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 1rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+
+.spell_icon {
+  height: 30px;
 }

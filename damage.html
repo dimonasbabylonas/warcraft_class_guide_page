@@ -15,7 +15,6 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <image src="./img/bfalogo.png" width="100" class="navbar-brand"></image>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home
+                    <a class="nav-link" href="./index.html"><img src="./img/bfalogo.png" height="30" alt="">
                     </a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
@@ -35,11 +34,8 @@
                         </div>
                     </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
+
     </nav>
 
     <section>
@@ -48,14 +44,392 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="showcase-left">
-                            <h1>Warrior (ARMS)</h1>
+                            <h1>Arms Warrior DPS Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to Arms Warrior DPS guide for World of Warcraft Battle for Azeroth (BfA). Here, you
+                                will learn everything you need to know about playing an Arms Warrior in a raid environment
+                                and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Archimtiros, the Warrior class theorycrafter, and one of the
+                                best DPS Warriors in the world, who raids in Infinity. You can follow him on Twitter and
+                                you can watch his stream on Twitch.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <div class="showcase-right"></div>
+                        <div class="showcase-right">
+                            <img src="./img/armswarrior.png" alt="arms warrior">
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!--ARMS WARRIOR-->
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>Arms Warriors in Battle for Azeroth are powerful juggernauts which revolve around building burst damage windows
+                with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                        alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/167105"
+                        data-tooltip-href="https://beta.wowdb.com/spells/167105">Colossus Smash</a></span>. Their greatest strength
+                comes in the form of an incredibly versatile toolkit, allowing Arms Warriors to adapt to virtually any situation,
+                particularly when facing multiple opponents.
+            </p>
+            <h2>2. Battle for Azeroth changes for Arms Warrior</h2>
+            <p>Although the core of the rotation is functionally similar to that of Legion, several of the abilities used
+                in it have changed.</p>
+    </section>
+    <section id="middle">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2.1 Core Mechanical Changes</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_avatar.jpg"
+                                            alt="Avatar Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/107574"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/107574">Avatar</a></span> and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rallyingcry.jpg"
+                                            alt="Rallying Cry Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/97462"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/97462">Rallying Cry</a></span>
+                                    (formerly
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rallyingcry.jpg"
+                                            alt="Commanding Shout Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/97462"
+                                            data-tooltip-href="https://www.wowdb.com/spells/97462">Commanding Shout</a></span>)
+                                    are now on the global cooldown. <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_charge.jpg" alt="Charge Icon">                                        <a
+                                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/100" data-tooltip-href="https://beta.wowdb.com/spells/100">Charge</a></span>
+                                    incurs a shorter 0.5 second global cooldown.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                                            alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/167105"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/167105">Colossus Smash</a></span>
+                                    replaces <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_innerrage.jpg"
+                                            alt="Battle Cry Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/1719"
+                                            data-tooltip-href="https://www.wowdb.com/spells/1719">Battle Cry</a></span> as Arms'
+                                    major cooldown, and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_meleedamage.jpg"
+                                            alt="Overpower Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/7384"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/7384">Overpower</a></span>
+                                    takes
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                                            alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/167105"
+                                            data-tooltip-href="https://www.wowdb.com/spells/167105">Colossus Smash
+                                        </a></span>'s place in the Legion rotation.</li>
+                                <li>Arms has a new Mastery, <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_backstab.jpg"
+                                            alt="Mastery: Deep Wounds Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/262111"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/262111">Mastery: Deep Wounds</a></span>,
+                                    which inflicts a six second bleed after using <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_savageblow.jpg"
+                                            alt="Mortal Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/12294"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/12294">Mortal Strike
+                                        </a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_48.jpg"
+                                            alt="Execute Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/163201"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/163201">Execute</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_cleave.jpg"
+                                            alt="Cleave Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/845"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/845">Cleave</a></span>, and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_bladestorm.jpg"
+                                            alt="Bladestorm Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/227847"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/227847">Bladestorm</a></span>, effectively
+                                    increasing the damage of those abilities, spread out over a few seconds. The damage from
+                                    this bleed can critically strike and benefit from damage-increasing buffs and debuffs.
+                                </li>
+                                <li>Most abilities have had their Rage cost increased, slowing the rotation's pace down from
+                                    Legion. This is somewhat compensated by several talents, though the spec still plays
+                                    slower as a whole.</li>
+                                <li>Taking melee damage now generates 3 Rage per incoming attack, once per second.
+                                </li>
+                                <li>Ability damage uses a new formula including both attack power and weapon damage, whereas
+                                    previously some abilities ignored weapon damage. As a result, strength is more important,
+                                    and ability damage scales more consistently.</li>
+                                <li>Personal buffs and debuffs such as <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                                            alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/167105"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/167105">Colossus Smash
+                                        </a></span>
+                                    no longer increase the damage of trinkets or other non-class ability damage.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 cols-sm-6">
+                        <div class="showcase-right">
+                            <h2>2.2 Baseline Abilities</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_battleshout.jpg"
+                                            alt="Battle Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/6673"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/6673">Battle Shout</a></span> is
+                                    a new ability which increases party and raid Attack Power by 10%.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                                            alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/167105"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/167105">Colossus Smash</a></span>
+                                    is no longer reset by <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_unrelentingassault.jpg"
+                                            alt="Tactician Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184783"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184783">Tactician</a></span> or
+                                    increased by Mastery, acting as a more static primary DPS cooldown.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_48.jpg"
+                                            alt="Execute Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/163201"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/163201">Execute</a></span> now costs
+                                    20-40 Rage instead of 10-40.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_savageblow.jpg"
+                                            alt="Mortal Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/12294"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/12294">Mortal Strike</a></span>
+                                    is no longer reset by <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_unrelentingassault.jpg"
+                                            alt="Tactician Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184783"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184783">Tactician</a></span>, making
+                                    its use more methodical, and costs 30 Rage.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_meleedamage.jpg"
+                                            alt="Overpower Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/7384"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/7384">Overpower</a></span> is now
+                                    baseline, and buffs <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_savageblow.jpg"
+                                            alt="Mortal Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/12294"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/12294">Mortal Strike</a></span>,
+                                    stacking twice, and resets via <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_unrelentingassault.jpg"
+                                            alt="Tactician Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184783"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184783">Tactician</a></span> procs.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_rogue_slicedice.jpg"
+                                            alt="Sweeping Strikes Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/260708"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/260708">Sweeping Strikes</a></span>
+                                    is now a baseline activated ability, causing all single target abilities to hit a second target for full damage, and apply
+                                    effects such as <span class="spell_icon_span"><img
+                                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_colossussmash.jpg"
+                                            alt="Colossus Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/167105"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/167105">Colossus Smash</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_gouge.jpg"
+                                            alt="Rend Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/772"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/772">Rend</a></span>, and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_backstab.jpg"
+                                            alt="Deep Wounds Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/262304"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/262304">Deep Wounds</a></span> to
+                                    both targets.</li>
+                            </ul>
+                            <h2>3. Arms Warrior's Strengths</h2>
+                            <ul class="info">
+                                <li>Bursty, cooldown driven damage.</li>
+                                <li>Versatile toolkit, able to effectively deal with 2 targets by using
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_rogue_slicedice.jpg"
+                                            alt="Sweeping Strikes Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/260708"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/260708">Sweeping Strikes</a></span>,
+                                    3-5 targets with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_cleave.jpg"
+                                            alt="Cleave Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/845"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/845">Cleave</a></span>, and burst
+                                    AoE with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_bladestorm.jpg"
+                                            alt="Bladestorm Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/227847"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/227847">Bladestorm</a></span>.</li>
+                                <li>Customizable rotation due to numerous talents which replace or enhance existing abilities.</li>
+                            </ul>
+                            <h2>4. Arms Warrior's Weaknesses</h2>
+                            <ul class="info">
+                                <li>Some reliance on <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_unrelentingassault.jpg"
+                                            alt="Tactician Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184783"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184783">Tactician</a></span> to
+                                    fill global cooldowns.
+                                </li>
+                                <li>Slow rotation, with intermittent periods of unfilled global cooldowns.</li>
+                                <li>Lack of sustained combat healing.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="middlepart">
+        <div class="container">
+            <h2>5. Viability of Arms Warrior in the Current Patch</h2>
+            <p>Due to the influence of legendaries and tier bonuses that the specialization is no longer designed for, individual
+                performance can vary greatly. In high-end gear, Arms is out-performed by Fury on single-target, although
+                it has better two-target and burst AoE tools.</p>
+        </div>
+    </section>
+
+    <!--FURRY WARRIOR-->
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <img src="./img/furrywarior.png" height="450" alt="arms warrior">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h1>Fury Warrior DPS Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to Fury Warrior DPS guide for World of Warcraft Battle for Azeroth (BfA) 8.0.1. Here,
+                                you will learn everything you need to know about playing a Fury Warrior in a raid environment
+                                and in Mythic+ dungeons..</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Archimtiros, the Warrior class theorycrafter, and one of the
+                                best DPS Warriors in the world, who raids in Infinity. You can follow him on Twitter and
+                                you can watch his stream on Twitch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>
+                <p>Fury Warriors in Battle for Azeroth have recieved many improvements from Legion, particularly to talents,
+                    improving multitarget capabilities, and Execute. The amount of stackable cooldowns has been reduced,
+                    streamlining the rotation to make <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rampage.jpg"
+                            alt="Rampage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184367" data-tooltip-href="https://beta.wowdb.com/spells/184367">Rampage</a></span>
+                    and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_unholyfrenzy.jpg"
+                            alt="Enrage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184361" data-tooltip-href="https://beta.wowdb.com/spells/184361">Enrage</a></span>
+                    the most important gameplay elements, while built-in Haste buffs make Fury one the fastest action specializations in the
+                    game. In additon to a well-rounded offensive toolkit, Fury boasts high mobility, strong self healing,
+                    and one of the few raid-wide defensive cooldowns in the game.</p>
+            </p>
+            <h2>2. Battle for Azeroth changes for Arms Warrior</h2>
+            <p>Although the core of the rotation remains similar to Legion, several improvements have been made to talents,
+                multitarget, and the Execute phase.</p>
+    </section>
+    <section id="middle">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2.1 Core Mechanical Changes</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_innerrage.jpg"
+                                            alt="Recklessness Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1719"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1719">Recklessness</a></span> (formerly
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_innerrage.jpg"
+                                            alt="Battle Cry Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/1719"
+                                            data-tooltip-href="https://www.wowdb.com/spells/1719">Battle Cry</a></span>) and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rallyingcry.jpg"
+                                            alt="Rallying Cry Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/97462"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/97462">Rallying Cry</a></span> (formerly
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rallyingcry.jpg"
+                                            alt="Commanding Shout Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/97462"
+                                            data-tooltip-href="https://www.wowdb.com/spells/97462">Commanding Shout</a></span>)
+                                    are now on the global cooldown. <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_charge.jpg" alt="Charge Icon">                                        <a
+                                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/100" data-tooltip-href="https://beta.wowdb.com/spells/100">Charge</a></span>
+                                    incurs a shorter 0.5s global cooldown.</li>
+                                <li>Fury no longer takes increased damage while Enraged, but also no longer has a significantly
+                                    higher health pool than other classes, although it does still have slightly higher stamina
+                                    due to dualwielding two-handed weapons.</li>
+                                <li>Taking melee damage now generates 3 Rage per incoming attack, once per second.
+                                </li>
+                                <li>Rage generation from autoattacks and abilities has been increased significantly to account
+                                    for the loss of legendaries and artifact traits.</li>
+                                <li>Ability damage uses a new formula including both attack power and weapon damage, whereas
+                                    previously some abilities ignored weapon damage. As a result, strength is more important,
+                                    and ability damage scales more consistently.</li>
+                                <li>Personal buffs and debuffs such as <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_unholyfrenzy.jpg"
+                                            alt="Enrage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184361"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184361">Enrage</a></span> no longer
+                                    increase the damage of trinkets or other non-class ability damage.</li>
+                            </ul>
+                            <h2>3. Furry Warrior's Strengths</h2>
+                            <ul class="info">
+
+                                <li>Innate Haste buffs allow for a fast and spammy play style.</li>
+                                <li>Deals multitarget damage without sacrificing single target damage.</li>
+                                <li>Strong burst AoE abilities which are also useful on single target.</li>
+                                <li>Short priority rotation that is easy to learn.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 cols-sm-6">
+                        <div class="showcase-right">
+                            <h2>2.2 Baseline Abilities</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_battleshout.jpg"
+                                            alt="Battle Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/6673"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/6673">Battle Shout</a></span> is
+                                    a new ability which increases party and raid Attack Power by 10%.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_bladestorm.jpg"
+                                            alt="Bladestorm Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/46924"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/46924">Bladestorm</a></span> now
+                                    deals its damage quicker, at the expense of less ticks.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_bloodlust.jpg"
+                                            alt="Bloodthirst Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/23881"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/23881">Bloodthirst</a></span> has
+                                    a flat 30% chance to trigger Enrage, rather than based on critical strike.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_unholyfrenzy.jpg"
+                                            alt="Enrage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184361"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184361">Enrage</a></span> increases
+                                    Haste by 25%, instead of autoattack speed.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_48.jpg"
+                                            alt="Execute Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5308"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/5308">Execute</a></span> generates
+                                    20 Rage on a 6-second cooldown, reduced by Haste.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_wild_strike.jpg"
+                                            alt="Raging Blow Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/85288"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/85288">Raging Blow</a></span> has
+                                    two charges, a 20% chance to reset its own cooldown on use, and no longer requires Enrage.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rampage.jpg"
+                                            alt="Rampage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184367"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184367">Rampage</a></span> animation
+                                    and global cooldown is reduced by Haste.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_innerrage.jpg"
+                                            alt="Recklessness Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1719"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1719">Recklessness</a></span> has
+                                    become a resource cooldown, doubling Rage generation and increasing Critical Strike chance
+                                    by 20% for 10 seconds.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_devastate.jpg"
+                                            alt="Victory Rush Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/34428"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/34428">Victory Rush</a></span> has
+                                    been added back to Fury.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_whirlwind.jpg"
+                                            alt="Whirlwind Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190411"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/190411">Whirlwind</a></span> now
+                                    generates Rage and replaces
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_weaponmastery.jpg"
+                                            alt="Furious Slash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/100130"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/100130">Furious Slash</a></span>
+                                    in the base rotation. Its buff now causes the next two single-target abilities to cleave, including <span
+                                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_48.jpg"
+                                            alt="Execute Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5308"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/5308">Execute</a></span>.</li>
+                            </ul>
+
+                            <h2>4. Furry Warrior's Weaknesses</h2>
+
+                            <ul class="info">
+                                <li>The Haste buff from <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_unholyfrenzy.jpg"
+                                            alt="Enrage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184361"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184361">Enrage</a></span> creates
+                                    feast or famine style gameplay, which may be unappealing to some.</li>
+                                <li>Ramp up time is needed in order to generate Rage for <span class="spell_icon_span"><img
+                                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rampage.jpg"
+                                            alt="Rampage Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184367"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/184367">Rampage</a></span>, made
+                                    more difficult when not enraged.</li>
+                                <li>While there is some amount of customization, talents do not significantly change the
+                                    core rotation.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="middlepart">
+        <div class="container">
+            <h2>5. Viability of Furry Warrior in the Current Patch</h2>
+            <p>Due to the influence of legendaries and tier bonuses that the specialization is no longer designed for, individual
+                performance can vary greatly. In high end gear, Fury should out perform Arms on single target, although it
+                has slightly lower burst AoE.</p>
         </div>
     </section>
 
@@ -66,8 +440,39 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.js " integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="
+                        anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.showcase-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: "300px"
+        });
+        sr.reveal('.showcase-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: "300px"
+        });
+        sr.reveal('#middlepart', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '100px',
+
+        });
+
+    </script>
 </body>
 
 </html>

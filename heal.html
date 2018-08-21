@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylemain.css">
+    <title>Heal Guides</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><img src="./img/bfalogo.png" height="30" alt="">
+                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Jump To</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#">Priest (Discipline)</a>
+                            <a class="dropdown-item" href="#">Priest (HOLY)</a>
+                            <a class="dropdown-item" href="#RESTORATION_DRUID">Druid (RESTORATION)</a>
+                            <a class="dropdown-item" href="#HOLY_PALADIN">Paladin (HOLY)</a>
+
+                        </div>
+                    </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+    <section id="middlepart">
+        <div class="container">
+            <h1>Discipline and Holy Pries Guide in Battle for Azeroth (BfA)</h1>
+            <img src="./img/priest.png" height="500" alt="">
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h1>Discipline Priest Healing Guide</h1>
+                            <h3>About Author</h3>
+                            <p>This guide is written and maintained by Mend, admin and editor at Focused Will (join them
+                                on Discord or read their Blog for healing Priests) and is reviewed by the staff at Focused
+                                Will. You can follow Mend on Twitter or Twitch.</p>
+                            <h3>1. Class Overview</h3>
+                            <p>The Discipline specialisation relies on healing players through dealing damage (thanks to
+                                the <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_atonement.jpg"
+                                        alt="Atonement Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/81749"
+                                        data-tooltip-href="https://beta.wowdb.com/spells/81749">Atonement</a></span> passive),
+                                but also has traditional heals and absorption spells. Healing through dealing damage allows
+                                Discipline Priests to contribute to the raid's DPS while still performing well as a healer.
+                                Discipline Priests provide the greatest burst healing in the game, and they are also able
+                                to contribute DPS to the raid. Balancing healing and dealing damage can be difficult to master
+                                at first but through research and practice can be one of the more rewarding specialisations
+                                to play in the game.</p>
+                            <h3>2. Changes for Discipline Priests</h3>
+                            <ul class="info">
+                                <li><b>Light's Wrath</b> has been removed.</li>
+                                <li><b>Plea</b> has been removed.</li>
+                                <li>Damage proc trinkets no longer transfer healing through Atonement and have been removed
+                                    from our loot table.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_powerwordshield.jpg"
+                                            alt="Power Word: Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/17"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/17">Power Word: Shield</a></span>
+                                    no longer has a cooldown.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_rapture.jpg"
+                                            alt="Rapture Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/47536"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/47536">Rapture</a></span> has been
+                                    reworked to buff the amount of the absorb from
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_powerwordshield.jpg"
+                                            alt="Power Word: Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/17"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/17">Power Word: Shield</a></span>.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_atonement.jpg"
+                                            alt="Atonement Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/81749"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/81749">Atonement</a></span> no longer
+                                    is directly affected by Mastery and has a flat 60% healing transfer rate from damage.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_wordfortitude.jpg"
+                                            alt="Power Word: Fortitude Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/21562"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/21562">Power Word: Fortitude</a></span>
+                                    is a Stamina buff that has been added</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_holynova.jpg"
+                                            alt="Holy Nova Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/132157"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/132157">Holy Nova</a></span> has
+                                    been added as a spammable Area of Effect spell.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_testoffaith.jpg"
+                                            alt="Desperate Prayer Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/19236"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/19236">Desperate Prayer</a></span>
+                                    has been added. It was formerly a Holy-only spell.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_artifact_powerofthedarkside.jpg"
+                                            alt="Power of the Dark Side Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/198068"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/198068">Power of the Dark Side</a></span>
+                                    has been added as a baseline spell (formerly was a trait on our artifact weapon, Light's Wrath).
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_priest_chakra.jpg"
+                                            alt="Mastery: Grace Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/271534"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/271534">Mastery: Grace</a></span>
+                                    replaces <b>Mastery: Absolution</b>.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_holyguidance.jpg"
+                                            alt="Sins of the Many Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/280391"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/280391">Sins of the Many</a></span>
+                                    was added as a talent providing a damage / healing buff decreasing with each Atonement in your group.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_savinggrace.jpg"
+                                            alt="Contrition Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197419"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/197419">Contrition</a></span> was
+                                    added as a talent to provide Atonement healing when using Penance defensively (on an
+                                    ally).
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_atonement.jpg"
+                                            alt="Lenience Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/238063"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/238063">Lenience</a></span> was
+                                    added as a talent.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_priest_burningwill.jpg"
+                                            alt="Luminous Barrier Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/271466"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/271466">Luminous Barrier</a></span>
+                                    was added as a talent that provides an absorb to all targets within 40 yards but replaces Power Word: Barrier.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h1>Holy Priest Healing Guide</h1>
+                            <h3>About Author</h3>
+                            <p>This guide has been written by Niphyr, a generally knowledgeable, long-time healing Priest
+                                and theorycrafter. You can follow him on Twitter.</p>
+                            <h3>1. Class Overview</h3>
+                            <p>The Holy specialisation allows for smooth and very strong AoE/raid healing, and it performs
+                                very well in terms of single target healing as well. Holy has traditionally been a reactive
+                                healer, using a variety of spells at its disposal to quickly heal damage taken by their allies.</p>
+                            <h3>2. Changes for Holy Priests</h3>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_renew.jpg"
+                                            alt="Renew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/139"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/139">Renew</a></span> now reduces
+                                    the cooldown of <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_divineprovidence.jpg"
+                                            alt="Holy Word: Sanctify Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/34861"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/34861">Holy Word: Sanctify</a></span>
+                                    by 2 seconds.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_arcane_massdispel.jpg"
+                                            alt="Mass Dispel Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/32375"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/32375">Mass Dispel</a></span> now
+                                    has a 45-second cooldown, up from 15 seconds.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_ascension.jpg"
+                                            alt="Apotheosis Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/200183"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/200183">Apotheosis</a></span> now
+                                    has a 20-second duration, 2-minute cooldown and generates 300% cooldown reduction on
+                                    Holy Words.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_testoffaith.jpg"
+                                            alt="Angel's Mercy Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/238100"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/238100">Angel's Mercy</a></span>
+                                    was added. Previously this was the
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_testoffaith.jpg"
+                                            alt="Times and Measures Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/238100"
+                                            data-tooltip-href="https://www.wowdb.com/spells/238100">Times and Measures</a></span>
+                                    artifact trait which provides a chance to reduce the cooldown of <span class="spell_icon_span"><img
+                                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_testoffaith.jpg"
+                                            alt="Desperate Prayer Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/19236"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/19236">Desperate Prayer</a></span>
+                                    upon taking damage.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_summonlightwell.jpg"
+                                            alt="Cosmic Ripple Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/238136"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/238136">Cosmic Ripple</a></span>
+                                    was added, which was previously an artifact trait.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_archangel.jpg"
+                                            alt="Holy Word: Salvation Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/265202"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/265202">Holy Word: Salvation</a></span>
+                                    was added with a 12-minute cooldown, healing all allies within 40 yards and applying both <span
+                                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_renew.jpg"
+                                            alt="Renew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/139"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/139">Renew</a></span> and 2 stacks
+                                    of
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_prayerofmendingtga.jpg"
+                                            alt="Prayer of Mending Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/33076"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/33076">Prayer of Mending</a></span>.
+                                    This cooldown is reduced by 30 seconds each time you cast a Holy Word, which, with regular
+                                    use of your Holy Words, reduces the cooldown to 3-5 minutes on average.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_guardianspirit.jpg"
+                                            alt="Guardian Spirit Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/47788"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/47788">Guardian Spirit</a></span>
+                                    now has a 3 minute cooldown with 60% increased healing.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_persecution.jpg"
+                                            alt="Body and Mind Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/214121"
+                                            data-tooltip-href="https://www.wowdb.com/spells/214121">Body and Mind</a></span>
+                                    has been removed.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_ascendance.jpg"
+                                            alt="Divinity Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/197031"
+                                            data-tooltip-href="https://www.wowdb.com/spells/197031">Divinity</a></span> has been
+                                    removed.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_priest_bindingprayers.jpg"
+                                            alt="Piety Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/197034"
+                                            data-tooltip-href="https://www.wowdb.com/spells/197034">Piety</a></span> has been
+                                    removed.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_symbolofhope.jpg"
+                                            alt="Symbol of Hope Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/64901"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/64901">Symbol of Hope</a></span>
+                                    is now channelled and a baseline ability restoring mana to nearby healers based on their missing mana.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_monk_diffusemagic.jpg"
+                                            alt="Benediction Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/193157"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/193157">Benediction</a></span> is
+                                    now a level 90 talent.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_pet_naaru.jpg"
+                                            alt="Light of the Naaru Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/196985"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/196985">Light of the Naaru</a></span>
+                                    is now a level 100 talent</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_wordfortitude.jpg"
+                                            alt="Power Word: Fortitude Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/21562"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/21562">Power Word: Fortitude</a></span>
+                                    is back as a baseline ability.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_psychicscream.jpg"
+                                            alt="Psychic Scream Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/8122"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/8122">Psychic Scream</a></span>
+                                    is back as a baseline ability.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_serendipity.jpg"
+                                            alt="Holy Words Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/63733"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/63733">Holy Words</a></span> is
+                                    renamed from Serendipity and is a hidden passive.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="RESTORATION_DRUID"></div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+    <!--RESTORATION DRUID-->
+
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <img src="./img/restorationdruid.png" height="400" width="500" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h1>Restoration Druid Healing Guide in Battle for Azeroth </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to our Restoration Druid healing guide for World of Warcraft Battle for Azeroth (BfA)
+                                8.0.1. Here, you will learn everything you need to know about playing a Restoration Druid
+                                in a raid environment and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been reviewed and approved by Torty, one of the main Restoration Druid theorycrafters.
+                                He is an author of the Twig It spreadsheet and DPS action priority list. He currently raids
+                                in Pure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>Restoration Druids specialise in maintaining a steady stream of healing on a few targets in the raid and offer
+                strong bursts of healing after using cooldowns. Restoration Druids also do well when healing a small amount
+                of targets for a prolonged period of time(such as players with debuffs).</p>
+            <p>Restoration Druids suffer in general when they have to react to damage for which they were not prepared and
+                when they did not have the time to set up their HoTs ahead of time. <span class="spell_icon_span"><img class="spell_icon"
+                        src="//static.icy-veins.com/images/wow/large_icons/spell_nature_tranquility.jpg" alt="Tranquility Icon">                    <a
+                        rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/740" data-tooltip-href="https://beta.wowdb.com/spells/740">Tranquility</a></span>
+                and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_wildburst.jpg"
+                        alt="Flourish Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197721" data-tooltip-href="https://beta.wowdb.com/spells/197721">Flourish</a></span>
+                offer strong burst healing when needed.</p>
+            <p>In order to properly play a healing role, you will need more than just class-specific information. To better
+                understand healing in general, we recommend that you read our healing guide.</p>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2. BFA Changes for Restoration Druids</h2>
+                            <ul class="info">
+                                <li><b>Healing Touch</b> has been removed.</li>
+                                <li><b>Living Seed</b> has been removed.</li>
+                                <li>Some abilities that were not on the global cooldown before are now affected by it, including
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_improvedtreeform.jpg"
+                                            alt="Incarnation: Tree of Life Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/33891"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/33891">Incarnation: Tree of Life</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_dash.jpg"
+                                            alt="Dash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1850"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1850">Dash</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_bullrush.jpg"
+                                            alt="Frenzied Regeneration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/22842"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/22842">Frenzied Regeneration</a></span>,
+                                    and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_lightning.jpg"
+                                            alt="Innervate Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/29166"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/29166">Innervate</a></span>.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_relics_idolofrejuvenation.jpg"
+                                            alt="Swiftmend Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/18562"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/18562">Swiftmend</a></span> cooldown
+                                    has been reduced to 25 seconds, down from 30.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_resistnature.jpg"
+                                            alt="Regrowth Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/8936"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/8936">Regrowth</a></span> base Critical
+                                    Strike chance has been removed. The healing over time effect has been slightly buffed.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_reincarnation.jpg"
+                                            alt="Rebirth Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/20484"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/20484">Rebirth</a></span> cast time
+                                    has been increased to 2 seconds from instant.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_racial_bearform.jpg"
+                                            alt="Bear Form Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5487"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/5487">Bear Form</a></span> Stamina
+                                    increase has been reduced to +25%, down from +55%.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_tranquility.jpg"
+                                            alt="Tranquility Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/740"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/740">Tranquility</a></span> now
+                                    leaves a healing over time effect on all targets healed. It stacks 5 times.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_ironbark.jpg"
+                                            alt="Ironbark Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/102342"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/102342">Ironbark</a></span> cooldown
+                                    has been reduced to 60 seconds, down from 90 seconds.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_bullrush.jpg"
+                                            alt="Frenzied Regeneration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/22842"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/22842">Frenzied Regeneration</a></span>
+                                    no longer heals based on incoming damage. Instead, it now heals for 24% of maximum Health over 3 seconds. The cooldown has
+                                    been increased to 36 seconds. Cooldown is now affected by Haste. Charges have been reduced
+                                    to 1, down from 2.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_vampiricaura.jpg"
+                                            alt="Shred Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5221"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/5221">Shred</a></span> and <span
+                                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_mangle2.jpg"
+                                            alt="Mangle Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/33917"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/33917">Mangle</a></span> are now
+                                    baseline and do not require <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/talentspec_druid_feral_cat.jpg"
+                                            alt="Feral Affinity Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197490"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/197490">Feral Affinity</a></span>
+                                    or
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/talentspec_druid_feral_bear.jpg"
+                                            alt="Guardian Affinity Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197491"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/197491">Guardian Affinity</a></span>.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_dash.jpg"
+                                            alt="Dash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1850"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1850">Dash</a></span>'s duration
+                                    has been reduced to 10 seconds, down from 15. Its cooldown has been reduced to 2 minutes,
+                                    down from 3.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_lightning.jpg"
+                                            alt="Innervate Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/29166"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/29166">Innervate</a></span> duration
+                                    has been increased to 12 seconds, up from 10.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_sleep.jpg"
+                                            alt="Hibernate Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/2637"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/2637">Hibernate</a></span> has been
+                                    added.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_hunter_beastsoothe.jpg"
+                                            alt="Soothe Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/2908"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/2908">Soothe</a></span> has been
+                                    added.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h2>3. Restoration Druid Strengths</h2>
+                            <ul class="info">
+                                <li>A lot of high-impact cooldowns</li>
+                                <li>Ability to sustain decent healing on the move</li>
+                                <li>The best tank cooldown in the game</li>
+                                <li>Very good survivability</li>
+                            </ul>
+                            <h2>4. Restoration Druid Weaknesses</h2>
+                            <ul class="info">
+                                <li>Below average throughput without cooldowns</li>
+                                <li>Very punishing in case of mistimed cooldowns</li>
+                                <li>Bad spot healing</li>
+                                <h2>5. Restoration Druid Viability</h2>
+                                <p> Restoration Druid's role in the raid edges slightly more towards healing big damage spikes.
+                                    We retain all the powerful options we had before to do so:
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_improvedtreeform.jpg"
+                                            alt="Incarnation: Tree of Life Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/33891"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/33891">Incarnation: Tree of Life</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_wildburst.jpg"
+                                            alt="Flourish Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197721"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/197721">Flourish</a></span>, and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_tranquility.jpg"
+                                            alt="Tranquility Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/740"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/740">Tranquility</a></span>. Unfortunately,
+                                    this playstyle leads to a significant loss in steady healing throughout a fight. However,
+                                    being able to cover harder parts of the encounters has been historically a very strong
+                                    niche to fill, assuming your throughput is competitive with other healers in the raid.</p>
+                                <p>Dungeon viability has taken big hits with the <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_racial_bearform.jpg" alt="Bear Form Icon">                                        <a
+                                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5487" data-tooltip-href="https://beta.wowdb.com/spells/5487">Bear
+                                            Form
+                                        </a></span> nerfs and overall reduction in burst throughput available. Restoration
+                                    Druids will still be able to comfortably clear any Mythic+ at the levels that offer maximum
+                                    rewards, but being one of the most sought-out specs is probably a thing of the past.
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="HOLY_PALADIN"></div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!--HOLY PALADIN-->
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h1>Holy Paladin Healing Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome toHoly Paladin healing guide for World of Warcraft Battle for Azeroth (BfA). Here,
+                                you will learn everything you need to know about playing a Holy Paladin in a raid environment
+                                and in Mythic+ dungeons..</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Holy Paladin Theorycrafter Adamselene. He currently raids with
+                                War Front of Kel'Thuzad-US. You can find him on the Hammer of Wrath class Discord and the
+                                most up to date version of “The Light and How to Swing It” — the spreadsheet he maintains
+                                with Rhyno — can be found here..</p>
+                            <h2>1. Class Overview</h2>
+                            <p>Holy Paladins specialize in tank and single-target healing, with this being their primary
+                                role. They excel at this because of <span class="spell_icon_span"><img class="spell_icon"
+                                        src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_beaconoflight.jpg"
+                                        alt="Beacon of Light Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53563"
+                                        data-tooltip-href="https://beta.wowdb.com/spells/53563">Beacon of Light</a></span> and
+                                <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_searinglight.jpg"
+                                        alt="Holy Shock Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/20473"
+                                        data-tooltip-href="https://beta.wowdb.com/spells/20473">Holy Shock</a></span>, as well
+                                as their efficient single-target heals. They also possess several tools that help them mitigate
+                                or avoid damage, both on themselves and on other raid members, such as <span class="spell_icon_span"><img
+                                        class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_sealofprotection.jpg"
+                                        alt="Blessing of Protection Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1022"
+                                        data-tooltip-href="https://beta.wowdb.com/spells/1022">Blessing of Protection</a></span>
+                                and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_devotionaura.jpg"
+                                        alt="Devotion Aura Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/183425"
+                                        data-tooltip-href="https://beta.wowdb.com/spells/183425">Devotion Aura</a></span>.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <img src="./img/holy_paladin.png" width="800" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>2.BFA Changes for Holy Paladins</h2>
+            <ul class="info">
+                <li>All bonuses from Legion's artifact weapon traits will no longer work.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_searinglight.jpg"
+                            alt="Holy Shock Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/20473"
+                            data-tooltip-href="https://beta.wowdb.com/spells/20473">Holy Shock</a></span> has +30% increased
+                    chance to critically strike instead of double your current Critical Strike chance.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_infusionoflight.jpg"
+                            alt="Infusion of Light Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53576"
+                            data-tooltip-href="https://beta.wowdb.com/spells/53576">Infusion of Light</a></span> increases <span
+                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_flashheal.jpg"
+                            alt="Flash of Light Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/19750"
+                            data-tooltip-href="https://beta.wowdb.com/spells/19750">Flash of Light</a></span>'s healing by 40%
+                    (was 50%).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_avenginewrath.jpg"
+                            alt="Avenging Wrath Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31842"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31842">Avenging Wrath</a></span> now increases your
+                    healing done and Critical Strike chance by 30% (was 35% increased healing and 20% increased Critical
+                    Strike chance).</li>
+                <li>The power of most spells has been adjusted.</li>
+                <li>Holy Paladins are losing two talents, <b>Fervent Martyr</b> and
+                    <b>Beacon of the Lightbringer</b>.</li>
+                <li>They are also gaining <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_helm_plate_raidpaladin_n_01.jpg"
+                            alt="Awakening Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/248033"
+                            data-tooltip-href="https://beta.wowdb.com/spells/248033">Awakening</a></span> and
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_veneration.jpg"
+                            alt="Avenging Crusader Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/216331"
+                            data-tooltip-href="https://beta.wowdb.com/spells/216331">Avenging Crusader</a></span> as talents.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_avenginewrath.jpg"
+                            alt="Avenging Wrath Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31842"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31842">Avenging Wrath</a></span>, <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_auramastery.jpg"
+                            alt="Aura Mastery Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31821"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31821">Aura Mastery</a></span>, and
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_holyavenger.jpg"
+                            alt="Holy Avenger Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/105809"
+                            data-tooltip-href="https://beta.wowdb.com/spells/105809">Holy Avenger</a></span> have been added
+                    to the global cooldown.</li>
+            </ul>
+            <h2>3. Holy Paladin Strengths</h2>
+            <ul class="info">
+                <li>Provide excellent passive tank healing through
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_beaconoflight.jpg"
+                            alt="Beacon of Light Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53563"
+                            data-tooltip-href="https://beta.wowdb.com/spells/53563">Beacon of Light</a></span></li>
+                <li>Excel at single-target healing and triage because of <span class="spell_icon_span"><img class="spell_icon"
+                            src="//static.icy-veins.com/images/wow/large_icons/spell_holy_searinglight.jpg" alt="Holy Shock Icon">                        <a
+                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/20473" data-tooltip-href="https://beta.wowdb.com/spells/20473">Holy
+                            Shock
+                        </a></span>
+                    and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_infusionoflight.jpg"
+                            alt="Infusion of Light Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53576"
+                            data-tooltip-href="https://beta.wowdb.com/spells/53576">Infusion of Light</a></span></li>
+                <li>Have many utility spells such as <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_sealofprotection.jpg"
+                            alt="Blessing of Protection Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1022"
+                            data-tooltip-href="https://beta.wowdb.com/spells/1022">Blessing of Protection</a></span> and
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_sealofvalor.jpg"
+                            alt="Blessing of Freedom Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1044"
+                            data-tooltip-href="https://beta.wowdb.com/spells/1044">Blessing of Freedom</a></span> that can be
+                    cast on themselves or others</li>
+                <li>Have very high survivability due to plate armor, as well as defensive spells like <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_divineprotection.jpg"
+                            alt="Divine Protection Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/498"
+                            data-tooltip-href="https://beta.wowdb.com/spells/498">Divine Protection</a></span> or <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_divineshield.jpg"
+                            alt="Divine Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/642"
+                            data-tooltip-href="https://beta.wowdb.com/spells/642">Divine Shield</a></span></li>
+            </ul>
+            <h2>4. Holy Paladin Weaknesses</h2>
+            <ul class="info">
+                <li>Lack a raid-wide healing cooldown equivalent to <span class="spell_icon_span"><img class="spell_icon"
+                            src="//static.icy-veins.com/images/wow/large_icons/spell_nature_tranquility.jpg" alt="Tranquility Icon">                        <a
+                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/740" data-tooltip-href="https://beta.wowdb.com/spells/740">Tranquility</a></span>
+                    or
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_shaman_healingtide.jpg"
+                            alt="Healing Tide Totem Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/108280"
+                            data-tooltip-href="https://beta.wowdb.com/spells/108280">Healing Tide Totem</a></span></li>
+                <li>Struggle to heal multiple spread targets quickly since it relies heavily on
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_paladin_lightofdawn.jpg"
+                            alt="Light of Dawn Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/85222"
+                            data-tooltip-href="https://beta.wowdb.com/spells/85222">Light of Dawn</a></span> for Area of Effect
+                    (AoE) healing</li>
+                <li>Are generally not a very mobile healer, with only <span class="spell_icon_span"><img class="spell_icon"
+                            src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_divinesteed.jpg" alt="Divine Steed Icon">                        <a
+                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190784" data-tooltip-href="https://beta.wowdb.com/spells/190784">Divine
+                            Steed
+                        </a></span>
+                    as a movement speed increase</li>
+            </ul>
+            <h2>5. Holy Paladin Viability in the Current Patch</h2>
+            <p>
+                <p>Holy Paladins have been highly sought after healers for many expansions. While they might not be as strong
+                    in 8.0.1 as they have been in the past, that will not change. Holy Paladins bring a unique set of abilities
+                    among the healers that are incredibly valuable even if their raw healing is below average.
+                </p>
+            </p>
+            <p>For Mythic+ dungeons, Holy Paladins will continue to be a top tier healer. While they have lost the 15% health
+                buff, <b>Righteousness</b>, their strengths in single-target healing, survivability, and tools such as
+                <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_beaconofinsight.jpg"
+                        alt="Beacon of Virtue Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/200025"
+                        data-tooltip-href="https://beta.wowdb.com/spells/200025">Beacon of Virtue</a></span> remain in place.
+                In addition, Holy Paladins will still provide respectable damage for a healer.</p>
+
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footerbox">
+            <p>Class changes guide for World of Warcraft "Battle for Azeroth"<br> Copyright&copy <a href="https://www.icy-veins.com/"
+                    target="_blank">
+                    <img src="./img/icy-veins-logo.png" width="80" alt=""></p></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.js " integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="
+                        anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.showcase-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: "300px"
+        });
+        sr.reveal('.showcase-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: "300px"
+        });
+        sr.reveal('#middlepart', {
+            duration: 2000,
+            origin: 'top',
+            distance: '100px',
+
+        });
+
+    </script>
+
+</body>
+
+</html>

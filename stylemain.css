@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -66,4 +67,18 @@ p {
 
 .spell_icon {
   height: 30px;
+}
+
+.footerbox {
+  position: absolute;
+  width: 100%;
+  background: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=84&opacity=32");
+  border-top: 2px solid rgb(255, 167, 3);
+  height: 60px;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
 }

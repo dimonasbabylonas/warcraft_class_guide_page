@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylemain.css">
+    <title>Tank Guides</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><img src="./img/bfalogo.png" height="30" alt="">
+                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Jump To</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+
+                            <a class="dropdown-item" href="#">Death Knight (BLOOD)</a>
+                            <a class="dropdown-item" href="#VENGEANCE_DEMON_HUNTER">Demon Hunter (Vengeance)</a>
+                            <a class="dropdown-item" href="#GUARDIAN_DRUID">Druid (GUARDIAN)</a>
+                            <a class="dropdown-item" href="#BREWMASTER_MONK">Monk (BREWMASTER)</a>
+                            <a class="dropdown-item" href="#PROTECTION_PALADIN">Paladin (PROTECTION)</a>
+                            <a class="dropdown-item" href="#PROTECTION_WARRIOR">Warrior (PROTECTION)</a>
+
+                        </div>
+                    </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--BLOOD DK-->
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h1>Blood Death Knight Tank Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to Blood Death Knight tank guide for World of Warcraft Battle for Azeroth (BfA) .
+                                Here, you will learn everything you need to know about playing a Blood Death Knight in a
+                                raid environment and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been reviewed and approved by Volstatsz who raids in Eternal Kingdom. He is
+                                a Blood Death Knight theorycrafter and moderator for the Acherus Death Knight community.
+                                You can follow him on Twitter.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <img src="./img/blooddeathknight.png" height="400" width="300" alt="arms warrior">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>The Blood specialization has an engaging playstyle, using self-healing through <span class="spell_icon_span"><img
+                        class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_deathknight_butcher2.jpg"
+                        alt="Death Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49998" data-tooltip-href="https://beta.wowdb.com/spells/49998">Death
+                        Strike
+                    </a></span> as a primary source of damage mitigation. Blood has a versatile defensive toolkit and is
+                effective in the full range of current content.
+            </p>
+            <p>Note that this guide focuses on aspects that are specific to Blood Death Knights and general tanking strategies
+                are beyond its scope. If you wish to know more about the tanking role and what you can do to improve, we
+                recommend that you read our tanking guide.</p>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2. BFA Changes for Blood Death Knights</h2>
+                            <ul class="info">
+                                <li>Tank threat generation has been significantly reduced, from +900% to +350%.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_07.jpg"
+                                            alt="Dancing Rune Weapon Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49028"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/49028">Dancing Rune Weapon</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_deathknight_strangulate.jpg"
+                                            alt="Death Grip Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49576"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/49576">Death Grip</a></span>, and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_fiegndead.jpg"
+                                            alt="Tombstone Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/219809"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/219809">Tombstone</a></span> have
+                                    been added to the global cooldown.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_deathknight_boneshield.jpg"
+                                            alt="Bone Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/195181"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/195181">Bone Shield</a></span> now
+                                    increases armor instead of absorbing damage.</li>
+                                <li>All Blood Death Knight abilities now use a normalized damage formula incorporating weapon
+                                    damage.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_deathknight_deathstrike.jpg"
+                                            alt="Mastery: Blood Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/77513"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/77513">Mastery: Blood Shield</a></span>
+                                    has been buffed 33%.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_deathknight_butcher2.jpg"
+                                            alt="Death Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49998"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/49998">Death Strike</a></span> has
+                                    been buffed to heal 25% of recent damage, with the floor value reduced to 7% of maximum
+                                    health.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_helm_plate_raiddeathknight_p_01.jpg"
+                                            alt="Wraith Walk Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/212552"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/212552">Wraith Walk</a></span> is
+                                    now a talent, and all Death Knight specs now have <span class="spell_icon_span"><img
+                                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_shadow_demonicempathy.jpg"
+                                            alt="Death's Advance Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/48265"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/48265">Death's Advance</a></span>
+                                    as a baseline ability.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_deathknight_aoedeathgrip.jpg"
+                                            alt="Gorefiend's Grasp Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/108199"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/108199">Gorefiend's Grasp</a></span>
+                                    now has a range of 15 yards, down from 20 yards.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_sword_07.jpg"
+                                            alt="Dancing Rune Weapon Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49028"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/49028">Dancing Rune Weapon</a></span>
+                                    now has a 2-minute cooldown, down from 3 minutes.
+                                </li>
+                                <li>The snare effect on <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_weapon_shortblade_40.jpg"
+                                            alt="Heart Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/206930"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/206930">Heart Strike</a></span>
+                                    now reduces movement speed by 20%, down from 50% in Legion.</li>
+                                <li>Several talents have been added or removed, and many others have had their position in
+                                    the talent tree moved. More information regarding talent changes can be found in the
+                                    Builds and Talents page.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h2>3. Blood Death Knight Strengths</h2>
+                            <ul class="info">
+                                <li>High self-sustain</li>
+                                <li>Many specialized defensive cooldowns</li>
+                                <li>Unique utility with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_deathknight_aoedeathgrip.jpg"
+                                            alt="Gorefiend's Grasp Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/108199"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/108199">Gorefiend's Grasp</a></span></li>
+                                <li>Two separate taunt cooldowns with <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/spell_nature_shamanrage.jpg" alt="Dark Command Icon">                                        <a
+                                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/56222" data-tooltip-href="https://beta.wowdb.com/spells/56222">Dark
+                                            Command
+                                        </a></span> and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_deathknight_strangulate.jpg"
+                                            alt="Death Grip Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/49576"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/49576">Death Grip</a></span></li>
+                            </ul>
+                            <h2>4. Blood Death Knight Weaknesses</h2>
+                            <ul class="info">
+                                <li>Limited mobility</li>
+                                <li>Reactive mitigation model, leading to spiky health</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="VENGEANCE_DEMON_HUNTER"></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!--Vengeance Demon Hunter-->
+
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <img src="./img/vengencedemonhunter.png" height="400" width="500" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h1>Vengeance Demon Hunter Tank Guide in Battle for Azeroth</h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to our Vengeance Demon Hunter tank guide for World of Warcraft Battle for Azeroth
+                                . Here, you will learn everything you need to know about playing a Vengeance Demon Hunter
+                                in a raid environment and in Mythic+ dungeons..</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Munkky, the main theorycrafter of the spec since it was initially
+                                announced, and an admin in the Demon Hunter Discords. He raids in Happy Accidents, you can
+                                watch his YouTube channel, and you can follow him on Twitter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>The Vengeance specialisation is the tanking Demon Hunter specialisation. It is the newest tanking specialisation
+                in World of Warcraft, having been introduced during Legion pre-expansion patch.</p>
+            <p>
+                <p>Demon Hunters are the kings of mobility in raids. In general, they can move around more and more quickly
+                    than many other specs, thanks to
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_infernalstrike1.jpg"
+                            alt="Infernal Strike Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/189110"
+                            data-tooltip-href="https://beta.wowdb.com/spells/189110">Infernal Strike</a></span> as well as various
+                    talents that aid their mobility. Additionally, they excel at burst AoE damage, with many abilities dealing
+                    AoE and cleave damage. That said, their single target damage is also strong.</p>
+            </p>
+            <p>Vengeance Demon Hunter gameplay features a mix between healing and damage mitigation, with low-cost and high-uptime
+                active mitigation, the ability to frequently mitigate magic damage, and extremely high burst healing potential.
+                They also do well against Magic damage.</p>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2. BFA Changes for Vengeance Demon Hunter</h2>
+                            <ul class="info">
+                                <li>Tank threat generation has been significantly reduced. In Legion, tanks received a +900%
+                                    bonus to threat generation, which is now +300% in Battle for Azeroth.
+                                </li>
+                                <li>Armor mitigation has changed such that Armor will be less effective against harder content.</li>
+                                <li>Pain from damage taken was removed.</li>
+                                <li>Vengeance now gains defensive value from Agility, through
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_yorsahj_bloodboil_green.jpg"
+                                            alt="Mastery: Fel Blood Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/203747"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/203747">Mastery: Fel Blood</a></span>'s
+                                    new Agility scaling.</li>
+                                <li>Lesser Souls now heal off damage taken (with a 1% maximum Health minimum) instead of
+                                    being Attack Power-based.</li>
+                                <li>Only 2 Artifact traits survived the transition and are now talents (
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warlock_backdraft.jpg"
+                                            alt="Charred Flesh Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/264002"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/264002">Charred Flesh</a></span>
+                                    and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_metamorphasistank.jpg"
+                                            alt="Gluttony Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/264004"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/264004">Gluttony</a></span>).</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_fierybrand.jpg"
+                                            alt="Fiery Brand Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/204021"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/204021">Fiery Brand</a></span> was
+                                    added to the global cooldown.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_hatefulstrike.jpg"
+                                            alt="Shear Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/203783"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/203783">Shear</a></span> now always
+                                    generates a soul.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_misc_zandalari_council_soulswap.jpg"
+                                            alt="Consume Magic Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/278326"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/278326">Consume Magic</a></span>
+                                    was changed to a purge, and we have been given an interrupt again (with half the range that Consume Magic used to have) in
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_consumemagic.jpg"
+                                            alt="Disrupt Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/183752"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/183752">Disrupt</a></span>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <h2>3. Vengeance Demon Hunter's Strengths</h2>
+                            <ul class="info">
+                                <li>Very high mobility</li>
+                                <li>Strong group utility, especially via <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/ability_demonhunter_empowerwards.jpg"
+                                            alt="Chaos Brand Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/255260"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/255260">Chaos Brand</a></span></li>
+                                <li>High tank DPS</li>
+                                <li>Cheat Death-style talent</li>
+                            </ul>
+                            <h2>4. Vengeance Demon Hunter's Weaknesses</h2>
+                            <ul class="info">
+                                <li>Utility is heavily dungeon based and not useful in raids</li>
+                                <li>Major cooldowns are severely lacking</li>
+                            </ul>
+                            <h2>5. Viability of Vengeance Demon Hunter in the Current Patch</h2>
+                            <p>Due to this being the Battle for Azeroth pre-patch, it is unknown where most specializations
+                                will lie due to tuning and balance issues as there are a lot of Legion specific gear and
+                                mechanics lingering. It is unlikely to struggle with most content as it is now mostly obsolete,
+                                so it should be solid in most situations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="GUARDIAN_DRUID"></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!--GUARDIAN DRUID-->
+
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h1>Guardian Druid Tank Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to our Guardian Druid tank guide for World of Warcraft Battle for Azeroth (BfA). Here,
+                                you will learn everything you need to know about playing a Guardian Druid in a raid environment
+                                and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Faide, a Guardian Druid theorycrafter, moderator for the Dreamgrove
+                                Druid discord, and owner of Dreamgrove.gg, a Druid community website. He raids in Synergy
+                                on Bleeding Hollow US. You can follow him on Twitter. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <img src="./img/guardiandruid.png" alt="arms warrior">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>Guardian Druid is a sturdy tank that manages damage intake through having strong passive reductions, a large
+                health pool, increased healing received from Mastery, and a stackable active mitigation. While Guardians
+                may take more damage than other tanks, this is offset by their increased healing received. They bring good
+                utility to raid groups and are an excellent raid tank.</p>
+            <p>Guardian Druids excel against encounters where a large majority of incoming damage is Physical or Melee damage.
+                This guide focuses specifically on Guardian Druid. As such, the more general aspects of tanking will not
+                be covered here. If you'd like to learn more about tanking in general, we recommend you read our tanking
+                guide.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>2. Added/Removed Spells</h2>
+            <ul class="info">
+                <li><b>Rage of the Sleeper</b> has been removed.</li>
+                <li>All artifact traits associated with the artifact weapon have been removed.
+                </li>
+                <li><b>Guttural Roars</b> has been replaced with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_dash_orange.jpg"
+                            alt="Tiger Dash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/252216"
+                            data-tooltip-href="https://beta.wowdb.com/spells/252216">Tiger Dash</a></span>.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_sleep.jpg"
+                            alt="Hibernate Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/2637" data-tooltip-href="https://beta.wowdb.com/spells/2637">Hibernate</a></span>
+                    has been added.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_hunter_beastsoothe.jpg"
+                            alt="Soothe Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/2908" data-tooltip-href="https://beta.wowdb.com/spells/2908">Soothe</a></span>
+                    has been added.</li>
+            </ul>
+            <h2>3. Changed Spells</h2>
+            <ul class="info">
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_bullrush.jpg"
+                            alt="Frenzied Regeneration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/22842"
+                            data-tooltip-href="https://beta.wowdb.com/spells/22842">Frenzied Regeneration</a></span> has been
+                    changed to heal for a fixed amount rather than scaling with incoming damage, and has had its cooldown
+                    increased from 24 seconds to 36 seconds.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_ironfur.jpg"
+                            alt="Ironfur Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/192081" data-tooltip-href="https://beta.wowdb.com/spells/192081">Ironfur</a></span>
+                    now grants a portion of Agility, rather than base Armor, as Armor. Additionally, Ironfur's base duration has been increased
+                    to 7 seconds (up from 6 seconds).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_racial_bearform.jpg"
+                            alt="Bear Form Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5487" data-tooltip-href="https://beta.wowdb.com/spells/5487">Bear
+                            Form
+                        </a></span> now grants 220% more Armor (up from 200%) and 45% more Stamina (down from 55%).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_frost_iceclaw.jpg"
+                            alt="Galactic Guardian Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/203964"
+                            data-tooltip-href="https://beta.wowdb.com/spells/203964">Galactic Guardian</a></span> has had its
+                    chance to proc reduced to 5% (down from 7%.)</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_improvedmoonkinform.jpg"
+                            alt="Balance Affinity Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/197488"
+                            data-tooltip-href="https://beta.wowdb.com/spells/197488">Balance Affinity</a></span> now increases
+                    spell range by 3 yards (down from 5 yards).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_stampedingroar_cat.jpg"
+                            alt="Stampeding Roar Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/106898"
+                            data-tooltip-href="https://beta.wowdb.com/spells/106898">Stampeding Roar</a></span> has had its range
+                    increased to 15 yards (up from 10 yards).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_reincarnation.jpg"
+                            alt="Rebirth Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/20484" data-tooltip-href="https://beta.wowdb.com/spells/20484">Rebirth</a></span>
+                    now costs 30 Rage (up from 10 Rage).</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_bristlingfur.jpg"
+                            alt="Bristling Fur Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/155835"
+                            data-tooltip-href="https://beta.wowdb.com/spells/155835">Bristling Fur</a></span>, <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_druid_dash.jpg" alt="Dash Icon">                        <a
+                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1850" data-tooltip-href="https://beta.wowdb.com/spells/1850">Dash</a></span>,
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_wildcharge.jpg"
+                            alt="Wild Charge Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/102401"
+                            data-tooltip-href="https://beta.wowdb.com/spells/102401">Wild Charge</a></span>,
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_bullrush.jpg"
+                            alt="Frenzied Regeneration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/22842"
+                            data-tooltip-href="https://beta.wowdb.com/spells/22842">Frenzied Regeneration</a></span>, <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_druid_incarnation.jpg"
+                            alt="Incarnation: Guardian of Ursoc Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/102558"
+                            data-tooltip-href="https://beta.wowdb.com/spells/102558">Incarnation: Guardian of Ursoc</a></span>,
+                    are now subject to the global cooldown.</li>
+                <li>Many abilities have had their underlying damage formula changed to scale with both Weapon Damage and
+                    Attack Power.</li>
+            </ul>
+        </div>
+        <div id="BREWMASTER_MONK"></div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!--BREWMASTER MONK-->
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <img src="./img/brewmastermonk.png" width="500" height="550" alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 ">
+                        <div class="showcase-right ">
+                            <h1>Brewmaster Monk Tank Guide in Battle for Azeroth (BfA)</h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to Brewmaster Monk tank guide for World of Warcraft Battle for Azeroth (BfA). Here,
+                                you will learn everything you need to know about playing a Brewmaster Monk in a raid environment
+                                and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Quotey, who has been tanking as a Brewmaster Monk since they
+                                first rolled onto the scene. He currently raids in Echoes and is reachable on the friendly
+                                Monk Discord.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>Brewmaster is the tanking specialization of Monks, and we possess a wide array of colorful and unique abilities.
+                Brewmasters do not overly rely on avoiding damage through dodging and parrying attacks. Instead, we have
+                an additional way of dealing with incoming damage, completely exclusive to Brewmaster. This is called <span
+                    class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/monk_stance_drunkenox.jpg"
+                        alt="Stagger Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115069" data-tooltip-href="https://beta.wowdb.com/spells/115069">Stagger</a></span>ing
+                damage, which causes only a portion of damage taken to be done to the Monk instantly. The rest of the damage
+                is done over the course of 10 seconds (with the possibility for the Monk to remove part of the non-instant
+                damage by using <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_misc_beer_06.jpg"
+                        alt="Purifying Brew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119582"
+                        data-tooltip-href="https://beta.wowdb.com/spells/119582">Purifying Brew</a></span>).</p>
+            <h2>2. BFA Changes for Brewmaster Monk</h2>
+            <p>In Battle for Azeroth, Brewmaster remains very similar to its Legion incarnation, with mostly background changes.</p>
+        </div>
+
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2.1. Existing Spell Changes</h2>
+                            <ul class="info">
+                                <li>The amount of damage you <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/monk_stance_drunkenox.jpg"
+                                            alt="Stagger Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115069"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/115069">Stagger</a></span> is now
+                                    based on your agility, meaning the better your gear is the less up-front damage you will
+                                    take. Magic stagger has been lowered from 40% of base stagger to 25%, as part of a series
+                                    of changes to make ALL tanks more vulnerable to magic damage.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_legsweep.jpg"
+                                            alt="Leg Sweep Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119381"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/119381">Leg Sweep</a></span> is
+                                    now baseline for all Monk specializations.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/achievement_brewery_2.jpg"
+                                            alt="Keg Smash Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/121253"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/121253">Keg Smash</a></span> has
+                                    had its slow reduced from 50% to 20%. If you desire a 50% slow, consider using <span
+                                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/achievement_brewery_2.jpg"
+                                            alt="Special Delivery Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/196730"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/196730">Special Delivery</a></span>,
+                                    which remains unchanged.
+                                </li>
+                                <li>The shared cooldowns of <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_misc_beer_06.jpg"
+                                            alt="Purifying Brew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119582"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/119582">Purifying Brew</a></span>
+                                    and
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_ironskinbrew.jpg"
+                                            alt="Ironskin Brew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115308"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/115308">Ironskin Brew</a></span>
+                                    have been reduced from 21 to 15 seconds. Ironskin Brew's duration has been increased from 6 to 7 seconds.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_sparring.jpg"
+                                            alt="Mystic Touch Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/8647"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/8647">Mystic Touch</a></span> has
+                                    been added, causing targets Brewmasters damage to take 5% more physical damage from all
+                                    sources.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 ">
+                        <div class="showcase-right ">
+                            <h2>2.2. Brewmaster Monk Talents</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_breathoffire.jpg"
+                                            alt="Spitfire Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/242580"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/242580">Spitfire</a></span> has
+                                    replaced <b>Gift of the Mists</b>. It gives a chance to reset the cooldown of <span class="spell_icon_span"><img
+                                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_breathoffire.jpg"
+                                            alt="Breath of Fire Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115181"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/115181">Breath of Fire</a></span>
+                                    when using <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_tigerpalm.jpg"
+                                            alt="Tiger Palm Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/100780"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/100780">Tiger Palm</a></span>, adding
+                                    some DPS.</li>
+                                <li>The cooldown of <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_chibrew.jpg"
+                                            alt="Black Ox Brew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115399"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/115399">Black Ox Brew</a></span>
+                                    has been increased from 90 to 120 seconds.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_legsweep.jpg"
+                                            alt="Tiger Tail Sweep Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/264348"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/264348">Tiger Tail Sweep</a></span>
+                                    modifies <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_legsweep.jpg"
+                                            alt="Leg Sweep Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119381"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/119381">Leg Sweep</a></span>, which
+                                    is now baseline. It improves Leg Sweep by reducing the cooldown and increasing range.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_creature_cursed_04.jpg"
+                                            alt="Bob and Weave Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/280515"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/280515">Bob and Weave</a></span>
+                                    increases the duration of your <span class="spell_icon_span"><img class="spell_icon"
+                                            src="//static.icy-veins.com/images/wow/large_icons/monk_stance_drunkenox.jpg" alt="Stagger Icon">                                        <a
+                                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115069" data-tooltip-href="https://beta.wowdb.com/spells/115069">Stagger</a></span>
+                                    DoT by 3 seconds, much like <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_jewelry_ring_138.jpg"
+                                            alt="Jewel of the Lost Abbey Icon"> <a rel="nofollow" class="q5" href="https://beta.wowdb.com/items/137044?bonusIDs=4213"
+                                            data-tooltip-href="https://beta.wowdb.com/items/137044?bonusIDs=4213">Jewel of the
+                                            Lost Abbey</a></span>. This means each stagger tick deals less damage to you.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_guard.jpg"
+                                            alt="Guard Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/115295"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/115295">Guard</a></span> has finally
+                                    returned to the PvE side of the game, replacing <b>Elusive Dance</b>. Its functionality
+                                    has changed from being an absorb to stopping any staggered damage (up to its tooltip
+                                    amount) from entering your ticking stagger pool.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_blackoutkick.jpg"
+                                            alt="Blackout Combo Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/196736"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/196736">Blackout Combo</a></span>
+                                    has changed slightly: it no longer modifies
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/inv_misc_beer_06.jpg"
+                                            alt="Purifying Brew Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119582"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/119582">Purifying Brew</a></span>
+                                    and the increase in <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_tigerpalm.jpg"
+                                            alt="Tiger Palm Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/100780"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/100780">Tiger Palm</a></span> damage
+                                    has been lowered. This, coupled with losing the <b>Face Palm</b> trait, means that it
+                                    will no longer be a giant DPS gain.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>3. Brewmaster Monk Strengths</h2>
+            <ul class="info">
+                <li>Very strong against single large hits</li>
+                <li>Highly mobile</li>
+                <li>Provides <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_sparring.jpg"
+                            alt="Mystic Touch Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/8647"
+                            data-tooltip-href="https://beta.wowdb.com/spells/8647">Mystic Touch</a></span> along with the other
+                    monk specializations, which all raids will want.</li>
+            </ul>
+            <h2>4. Brewmaster Monk Weaknesses</h2>
+            <p>Less self sufficient than some other tanks.</p>
+            <h2>5. Brewmaster Monk Viability in the Current Patch</h2>
+            <p>Brewmaster is quite strong currently. It is the best tank for dealing with isolated large hits, making it
+                excellent at certain bosses. In Dungeons,
+                <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_monk_legsweep.jpg"
+                        alt="Leg Sweep Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/119381" data-tooltip-href="https://beta.wowdb.com/spells/119381">Leg
+                        Sweep
+                    </a></span> is an exceptionally powerful stun, and we can kite in a pinch to get out of deadly situations.
+            </p>
+        </div>
+        <div id="PROTECTION_PALADIN"></div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!--PROTECTION PALADIN-->
+
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h1>Protection Paladin Tank Guide in Battle for Azeroth (BfA) </h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to our Protection Paladin tank guide for World of Warcraft Battle for Azeroth (BfA)
+                                . Here, you will learn everything you need to know about playing a Protection Paladin in
+                                a raid environment and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Treckie, a long-time leading Protection Paladin who competed
+                                for world first kills for 5 years. He currently raids in NollTvåTre and has been a caster
+                                and an analyst of Blizzard's Mythic Dungeon Invitational. You can watch his stream on Twitch
+                                and you can follow him on Twitter. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-right">
+                            <img src="./img/protectionpaladin.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>As a Protection Paladin, you can expect to perform the role of a solid and reliable tank. In general, your
+                damage intake will be relatively smooth, with many attacks being blocked by your shield or softened by your
+                strong active mitigation. No other tank class has quite the array of tricks up their sleeve that a paladin
+                does. Note that this guide focuses on aspects that are specific to Protection Paladins and general tanking
+                strategies are beyond its scope. If you wish to know more about the tanking role and what you can do to improve,
+                we recommend that you read our tanking guide.</p>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>2. BFA Changes for Protection Paladins</h2>
+            <ul class="info">
+                <li>Tank threat generation has been significantly reduced, from +900% to +350% bonus threat generation.</li>
+                <li>The amount of damage you Block is dependent on the new Block value that passively comes on your Shield.
+                    This value can also be increased with other spells and talents.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_holyprotection.jpg"
+                            alt="Mastery: Divine Bulwark Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/76671"
+                            data-tooltip-href="https://beta.wowdb.com/spells/76671">Mastery: Divine Bulwark</a></span> increases
+                    both your chance to Block as well as the passive damage reduction you get while you stand in your
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_innerfire.jpg"
+                            alt="Consecration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/26573"
+                            data-tooltip-href="https://beta.wowdb.com/spells/26573">Consecration</a></span>.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_lightoftheprotector.jpg"
+                            alt="Light of the Protector Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/184092"
+                            data-tooltip-href="https://beta.wowdb.com/spells/184092">Light of the Protector</a></span> now heals
+                    for a set amount, which is then increased by missing Health, and is now able to Critically Strike, it
+                    also has an increased cooldown at 17 seconds.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_innerfire.jpg"
+                            alt="Consecration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/26573"
+                            data-tooltip-href="https://beta.wowdb.com/spells/26573">Consecration</a></span> had its cooldown
+                    reduced and duration increased. However, multiple casts no longer stack with each other.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_avengersshield.jpg"
+                            alt="Avenger's Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31935"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31935">Avenger's Shield</a></span> will increase
+                    the damage done and Armor gained from your next <span class="spell_icon_span"><img class="spell_icon"
+                            src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_shieldofvengeance.jpg" alt="Shield of the Righteous Icon">                        <a
+                            rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53600" data-tooltip-href="https://beta.wowdb.com/spells/53600">Shield
+                            of the Righteous</a></span> by 20%. In Legion, this effect used to be gained from standing in
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_innerfire.jpg"
+                            alt="Consecration Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/26573"
+                            data-tooltip-href="https://beta.wowdb.com/spells/26573">Consecration</a></span>
+                    instead.</li>
+                <li>Some abilities are now on the global cooldown, such as
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_blessedhands.jpg"
+                            alt="Hand of the Protector Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/213652"
+                            data-tooltip-href="https://beta.wowdb.com/spells/213652">Hand of the Protector</a></span>,
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_avenginewrath.jpg"
+                            alt="Avenging Wrath Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31884"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31884">Avenging Wrath</a></span>, and <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_seraphim.jpg"
+                            alt="Seraphim Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/152262"
+                            data-tooltip-href="https://beta.wowdb.com/spells/152262">Seraphim</a></span>.</li>
+                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_avenginewrath.jpg"
+                            alt="Avenging Wrath Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31884"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31884">Avenging Wrath</a></span> has been reduced
+                    from 35% to 20%, but now also increases your Critical Strike chance by 20%. It is important to note that
+                    it now ONLY works for Paladin spells and abilities, which means it does not work with trinkets or other
+                    effects any longer.</li>
+                <li><b>NEW</b> talent <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_holyguidance.jpg"
+                            alt="Unbreakable Spirit Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/114154"
+                            data-tooltip-href="https://beta.wowdb.com/spells/114154">Unbreakable Spirit</a></span> has been added
+                    instead of Knight Templar. This talent reduces the cooldown of
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_divineshield.jpg"
+                            alt="Divine Shield Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/642"
+                            data-tooltip-href="https://beta.wowdb.com/spells/642">Divine Shield</a></span>, <span class="spell_icon_span"><img
+                            class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_layonhands.jpg"
+                            alt="Lay on Hands Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/633"
+                            data-tooltip-href="https://beta.wowdb.com/spells/633">Lay on Hands</a></span>, and
+                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_holy_ardentdefender.jpg"
+                            alt="Ardent Defender Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/31850"
+                            data-tooltip-href="https://beta.wowdb.com/spells/31850">Ardent Defender</a></span> by 30%.</li>
+                <li>War Mode talents have been added, which are PvP talents that are active at all times in outdoor content,
+                    as long as War Mode is turned on.</li>
+            </ul>
+            <p><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_shieldofvengeance.jpg"
+                        alt="Shield of the Righteous Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53600"
+                        data-tooltip-href="https://beta.wowdb.com/spells/53600">Shield of the Righteous</a></span> has received
+                numerous changes for Battle for Azeroth, which are listed below.
+            </p>
+            <ul class="info">
+                <li>It no longer requires a target to activate, and instead of dealing damage to your current target it deals
+                    damage in a cone in front of you.</li>
+                <li>It has been changed from a flat damage reduction to instead increasing Armor.
+                </li>
+                <li>The Armor gained from <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_paladin_shieldofvengeance.jpg"
+                            alt="Shield of the Righteous Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/53600"
+                            data-tooltip-href="https://beta.wowdb.com/spells/53600">Shield of the Righteous</a></span> is increased
+                    by Strength.
+                </li>
+                <li>Its cooldown has been increased to 18 seconds.</li>
+            </ul>
+        </div>
+        <div id="PROTECTION_WARRIOR"></div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <!--PROTECTION WARRIOR-->
+
+    <section>
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <img src="./img/protectionwarrior.png" height="420" alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 ">
+                        <div class="showcase-right ">
+                            <h1>Protection Warrior Tank Guide in Battle for Azeroth (BfA)</h1>
+                            <h2>General Information</h2>
+                            <p>Welcome to our Protection Warrior tank guide for World of Warcraft Battle for Azeroth (BfA)
+                                8.0.1. Here, you will learn everything you need to know about playing a Protection Warrior
+                                in a raid environment and in Mythic+ dungeons.</p>
+                            <h2>About Author</h2>
+                            <p>This guide has been written by Marok, a Protection Warrior theorycrafter, owner of the Skyhold
+                                Warrior Discord, and owner of skyhold.gg, a Warrior community website. He raids in Potent
+                                on Mal'Ganis-US. You can follow him on Twitter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="container">
+            <h2>1. Class Overview</h2>
+            <p>Protection Warriors excel in fights with high amounts of physical damage, or where mobility is needed. Much
+                of the damage they take is mitigated through blocking, making their damage intake smooth and predictable.
+                Additionally, they provide a healthy amount of utility, whether it be crowd control or raid buffs. They are
+                a formidable tank all around, making them a worthy choice in both raids and dungeons. Note that this guide
+                focuses on aspects which are specific to Protection Warriors and general tanking strategies are beyond its
+                scope. If you wish to know more about the tanking role and what you can do to improve, we recommend that
+                you read our tanking guide.</p>
+            <h2>2. BFA Changes for Protection Warriors</h2>
+            <p>Many talents have been removed or have had their place changed in the talent tree. See the talents page.</p>
+        </div>
+    </section>
+
+    <section id="middlepart">
+        <div class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="showcase-left">
+                            <h2>2.1. Mechanical Changes</h2>
+                            <ul class="info">
+                                <li>Tank threat generation has been significantly reduced. In Legion, tanks received a +900%
+                                    bonus to threat generation, which is now +350% in Battle for Azeroth.</li>
+                                <li>Some abilities that were not on the global cooldown in Legion now are:
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_victoryrush.jpg"
+                                            alt="Intercept Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/198304"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/198304">Intercept</a></span>, <span
+                                        class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_renewedvigor.jpg"
+                                            alt="Ignore Pain Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190456"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/190456">Ignore Pain</a></span>,
+                                    <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_warcry.jpg"
+                                            alt="Demoralizing Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1160"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1160">Demoralizing Shout</a></span>,
+                                    and <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_avatar.jpg"
+                                            alt="Avatar Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/107574"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/107574">Avatar</a></span>.</li>
+                                <li>Rage from Damage Taken (often referred to as RFDT) has been removed. In its place, Rage
+                                    is gained when the player <em>gets</em> meleed, and Rage is gained when the player melees.</li>
+                                <li>The damage reduction from blocking is no longer a flat 30% (or 60% for a critical block).
+                                    It is now based on the Block stat.</li>
+                            </ul>
+                            <h2>2.2. Ability Changes</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_warcry.jpg"
+                                            alt="Demoralizing Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/1160"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/1160">Demoralizing Shout</a></span>
+                                    is now on a 45-second cooldown, down from 90 seconds.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_defend.jpg"
+                                            alt="Shield Block Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/2565"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/2565">Shield Block</a></span>'s
+                                    recharge time is now 18 seconds, up from 13 seconds. It costs 30 Rage, up from 15 Rage.
+                                    It still has 2 charges despite what the tooltip says.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_renewedvigor.jpg"
+                                            alt="Ignore Pain Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190456"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/190456">Ignore Pain</a></span><ul>
+                                        <li>The Attack Power ratio has been significantly nerfed, and it now ignores 50%
+                                            of damage instead of 90%.</li>
+                                        <li>It now has a flat Rage cost of 40.</li>
+                                        <li>Its cap is now 1.3 times the on-cast absorb amount, down from 3 times.
+                                        </li>
+                                        <li>Its duration is now 12 seconds, down from 15 seconds.</li>
+                                    </ul>
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_shieldreflection.jpg"
+                                            alt="Spell Reflection Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/23920"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/23920">Spell Reflection</a></span>
+                                    reduces magical damage by 20%, down from 50% (with Artifact).</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/spell_nature_thunderclap.jpg"
+                                            alt="Thunder Clap Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/6343"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/6343">Thunder Clap</a></span> now
+                                    reduces enemy movement speed by 20%, down from 50%.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_victoryrush.jpg"
+                                            alt="Intercept Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/198304"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/198304">Intercept</a></span> no
+                                    longer reduces enemy movement speed.</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 ">
+                        <div class="showcase-right ">
+
+
+                            <h2>2.2.1. Removed Abilities</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_innerrage.jpg"
+                                            alt="Battle Cry Icon"> <a rel="nofollow" class="spell" href="https://www.wowdb.com/spells/1719"
+                                            data-tooltip-href="https://www.wowdb.com/spells/1719">Battle Cry</a></span> has been
+                                    replaced with <span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_avatar.jpg"
+                                            alt="Avatar Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/107574"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/107574">Avatar</a></span>.</li>
+                            </ul>
+                            <h2>2.2.2. New Abilities</h2>
+                            <ul class="info">
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/warrior_talent_icon_avatar.jpg"
+                                            alt="Avatar Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/107574"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/107574">Avatar</a></span> is now
+                                    Protection's baseline damage cooldown and it also generates 20 Rage. It causes you to
+                                    deal 20% more damage for 20 seconds.
+                                </li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_battleshout.jpg"
+                                            alt="Battle Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/6673"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/6673">Battle Shout</a></span> increases
+                                    the attack power of all your party/raid members by 10% for 60 minutes.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_golemthunderclap.jpg"
+                                            alt="Intimidating Shout Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/5246"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/5246">Intimidating Shout</a></span>
+                                    causes a target enemy to cower in fear, and up to 5 additional enemies within 8 yards to flee.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_rallyingcry.jpg"
+                                            alt="Rallying Cry Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/97462"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/97462">Rallying Cry</a></span> increases
+                                    all your party/raid members' current and maximum health by 15%.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_shockwave.jpg"
+                                            alt="Shockwave Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/46968"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/46968">Shockwave</a></span> is now
+                                    baseline. The cooldown reduction when you hit 3+ targets has been moved to a talent.
+                                    This ability stuns all enemies for 2 seconds within a frontal cone.</li>
+                                <li><span class="spell_icon_span"><img class="spell_icon" src="//static.icy-veins.com/images/wow/large_icons/ability_warrior_defensivestance.jpg"
+                                            alt="Vanguard Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/71"
+                                            data-tooltip-href="https://beta.wowdb.com/spells/71">Vanguard</a></span> is a passive
+                                    ability that provides a 35% Stamina increase and causes Armor to be increased by 45%
+                                    of your Strength.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footerbox">
+            <p>Class changes guide for World of Warcraft "Battle for Azeroth"<br> Copyright&copy <a href="https://www.icy-veins.com/"
+                    target="_blank">
+                    <img src="./img/icy-veins-logo.png" width="80" alt=""></p></a>
+        </div>
+    </footer>
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.js " integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="
+                        anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.showcase-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: "300px"
+        });
+        sr.reveal('.showcase-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: "300px"
+        });
+        sr.reveal('#middlepart', {
+            duration: 2000,
+            origin: 'top',
+            distance: '100px',
+
+        });
+
+    </script>
+
+</body>
+
+</html>
